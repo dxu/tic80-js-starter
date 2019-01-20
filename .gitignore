@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# don't commit the bundle.js output
+bundle.js

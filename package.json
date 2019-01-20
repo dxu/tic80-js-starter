@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "node scripts/bundler"
+    "build": "yarn run bundle ; yarn run uglify",
+    "bundle": "node scripts/bundler",
+    "uglify": "uglifyjs --compress --mangle --output bundle.min.js -- bundle.js"
   },
   "devDependencies": {
     "module-concat": "^2.3.0",

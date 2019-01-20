@@ -3,6 +3,7 @@
     "build": "node scripts/bundler"
   },
   "devDependencies": {
-    "module-concat": "^2.3.0"
+    "module-concat": "^2.3.0",
+    "uglify-js": "^3.4.9"
   }
 }

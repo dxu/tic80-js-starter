@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node scripts/bundler"
+  },
+  "devDependencies": {
+    "module-concat": "^2.3.0"
+  }
+}

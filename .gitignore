@@ -62,3 +62,4 @@ typings/
 
 # don't commit the bundle.js output
 bundle.js
+bundle.min.js

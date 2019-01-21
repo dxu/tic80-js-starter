@@ -8,11 +8,11 @@
   "license": "MIT",
   "devDependencies": {
     "module-concat": "^2.3.0",
-    "uglify-js": "^3.4.9"
+    "terser": "^3.14.1"
   },
   "scripts": {
     "build": "yarn run bundle ; yarn run uglify ; node scripts/builder",
     "bundle": "node scripts/bundler",
-    "uglify": "uglifyjs build/bundle.js --output build/bundle.min.js -m -c negate_iife=false"
+    "uglify": "terser build/bundle.js --output build/bundle.min.js -m -c negate_iife=false"
   }
 }

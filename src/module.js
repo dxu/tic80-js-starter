@@ -1,6 +1,6 @@
-var t=0
-var x=96
-var y=24
+const t=0
+const x=96
+const y=24
 
 module.exports = function()
 {
